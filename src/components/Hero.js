@@ -1,6 +1,6 @@
 // src/components/Hero.js
 import React from 'react';
-import { BarChart, Clock, Shield, Brain, Cpu, LineChart } from 'lucide-react';
+import { Brain, Cpu, LineChart } from 'lucide-react';
 
 const Hero = () => {
   return (
