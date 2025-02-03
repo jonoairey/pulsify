@@ -34,13 +34,9 @@ const Hero = function () {
             <div className="flex justify-center space-x-4">
               <button
                 className="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50"
-                onClick={() => navigate('./components/ContactForm')}
+                onClick={() => navigate('/contactform')}
               >
                 Start Your Digital Transformation
-              </button>
-              <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700">
-                onClick={() => navigate('./components/ContactForm')}
-                Experience Intelligent Operations
               </button>
             </div>
           </div>
@@ -49,5 +45,6 @@ const Hero = function () {
     );
   };
 
-  export default Hero;
 }
+
+export default Hero;
