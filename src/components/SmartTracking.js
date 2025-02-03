@@ -1,5 +1,4 @@
 import React from 'react';
-import { Clock, Shield, Bell, Box, BarChart } from 'lucide-react';
 
 const SmartTracking = () => {
   return (
