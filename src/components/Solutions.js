@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
-  BarChart, Shield, Clock, Calendar, Box, Users, Zap, LineChart,
-  Building2, Hospital, Truck, Factory, ChevronRight, Award, Gift, Tag
+  BarChart, Shield, Clock, Calendar, ChevronRight, Award,
+  Building2, Factory, Truck, LineChart, Users, Tag, Gift
 } from 'lucide-react';
 
 const Solutions = () => {
