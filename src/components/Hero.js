@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="flex justify-center space-x-4">
             <button
               className="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50"
-              onClick={() => navigate('/contactform')}
+              onClick={() => console.log('Navigate to contact form')}
             >
               Start Your Digital Transformation
             </button>
