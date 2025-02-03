@@ -31,10 +31,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>info@pulsify.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Tech Street</li>
-              <li>Innovation City, IC 12345</li>
+              <li>hello@pulsify.com</li>
+              <li></li>
+              <li></li>
+              <li>Made with ♥ in Australia</li>
             </ul>
           </div>
         </div>
