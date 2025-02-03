@@ -1,9 +1,22 @@
 import React from 'react';
+import { Globe, Clock } from 'lucide-react'; // Assuming you are using lucide-react for icons
 
 const EnvironmentalImpact = () => {
   return (
     <div className="environmental-impact">
       <h2>Environmental Impact</h2>
+      <div className="flex justify-center space-x-4">
+        <div className="text-center">
+          <Globe className="text-4xl font-bold text-blue-600 mb-2" />
+          <div className="text-lg font-semibold mb-1">Global Reach</div>
+          <p className="text-gray-600">Making a difference worldwide</p>
+        </div>
+        <div className="text-center">
+          <Clock className="text-4xl font-bold text-blue-600 mb-2" />
+          <div className="text-lg font-semibold mb-1">Time Efficiency</div>
+          <p className="text-gray-600">Saving time with smart solutions</p>
+        </div>
+      </div>
       <section className="bg-green-50 py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Environmental Impact</h2>
