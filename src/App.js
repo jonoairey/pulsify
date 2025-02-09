@@ -4,7 +4,7 @@ import PulsifyLanding from './components/PulsifyLanding';
 
 function App() {
   return (
-    <div className="app font-sans">
+    <div className="App">
       <PulsifyLanding />
     </div>
   );

@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Hero from './Hero';
 import Solutions from './Solutions';
-import CaseStudies from './CaseStudies';
+import ProcessSection from './ProcessSection';
+import ValueSection from './ValueSection';
 import EnvironmentalImpact from './EnvironmentalImpact';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
@@ -17,7 +18,8 @@ const PulsifyLanding = () => {
       <div className="pt-20">
         <Hero />
         <Solutions />
-        <CaseStudies />
+        <ProcessSection />
+        <ValueSection />
         <EnvironmentalImpact />
         <ContactForm />
         <Footer />
