@@ -33,12 +33,15 @@ const StatsCounter = ({ end, duration = 2000, suffix = '' }) => {
       if (countRef.current) {
         observer.unobserve(countRef.current);
       }
+      const currentCount = countRef.current;
+      console.log('Cleanup function:', currentCount);
     };
   }, [end, duration]);
 
   return (
     <div ref={countRef} className="text-4xl font-bold">
       {count}{suffix}
+      <p>Count: {countRef.current}</p>
     </div>
   );
 };
