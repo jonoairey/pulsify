@@ -3,7 +3,6 @@ import React from 'react';
 import { Brain, Activity, ArrowRight, Zap } from 'lucide-react';
 import BackgroundPattern from './svg/BackgroundPattern';
 import FloatingElements from './decorative/FloatingElements';
-import StatsCounter from './stats/StatsCounter';
 
 const Hero = () => {
   return (
@@ -80,15 +79,15 @@ const Hero = () => {
             {/* Stats Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:-translate-y-2 transition-all cursor-pointer">
-                <StatsCounter end={40} suffix="%" />
+                <div className="text-4xl font-bold text-white mb-2">40%</div>
                 <p className="text-white/80">Cost Reduction</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:-translate-y-2 transition-all cursor-pointer">
-                <StatsCounter end={99.9} suffix="%" />
+                <div className="text-4xl font-bold text-white mb-2">99.9%</div>
                 <p className="text-white/80">Tracking Accuracy</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:-translate-y-2 transition-all cursor-pointer">
-                <div className="text-4xl font-bold text-black mb-2">3-6mo</div>
+                <div className="text-4xl font-bold text-white mb-2">3-6mo</div>
                 <p className="text-white/80">Time to ROI</p>
               </div>
             </div>
