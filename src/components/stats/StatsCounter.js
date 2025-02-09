@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const StatsCounter = ({ end, duration = 2000, suffix = '' }) => {
   const [count, setCount] = useState(0);
-  const countRef = useRef(null);
+  const countRef = useRef(0);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,7 +36,7 @@ const StatsCounter = ({ end, duration = 2000, suffix = '' }) => {
       const currentCount = countRef.current;
       console.log('Cleanup function:', currentCount);
     };
-  }, [end, duration]);
+  }, [end, duration, countRef.current]);
 
   return (
     <div ref={countRef} className="text-4xl font-bold">
