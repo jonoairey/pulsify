@@ -25,18 +25,18 @@ const StatsCounter = ({ end, duration = 2000, suffix = '' }) => {
       { threshold: 0.5 }
     );
 
-    if (countRef.current) {
-      observer.observe(countRef.current);
+    const currentRef = countRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (countRef.current) {
-        observer.unobserve(countRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
-      const currentCount = countRef.current;
-      console.log('Cleanup function:', currentCount);
+      console.log('Cleanup function:', currentRef);
     };
-  }, [end, duration, countRef.current]);
+  }, [end, duration]);
 
   return (
     <div ref={countRef} className="text-4xl font-bold">
