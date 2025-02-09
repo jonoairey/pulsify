@@ -4,7 +4,6 @@ import {
   TrendingUp, 
   ScrollText, 
   Globe,
-  Shield, 
   BookOpen,
   BarChart3,
   Users,

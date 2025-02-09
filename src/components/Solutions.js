@@ -1,15 +1,9 @@
 import { 
   Store, 
   CalendarDays, 
-  Building2, 
-  Factory,
-  Truck,
-  BarChart3,
   ChevronRight,
   Award,
   Users,
-  LineChart,
-  Smartphone,
   Tag,
   Badge,
   MessageSquare,
@@ -17,7 +11,6 @@ import {
   Zap,
   ShieldCheck,
   TrendingUp,
-  ArrowRight,
   Eye,
   Layers
 } from 'lucide-react';
